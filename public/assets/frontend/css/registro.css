@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+}
+.titulo{
+    color: hsl(294, 53%, 86%);
+}
+.parrafo-1{
+    font-size: 20px;
+}
+
+#h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto 30px;
+    padding: 20px;
+    background-color: rgb(234, 215, 236);
+    border-radius: 8px;
+    padding-bottom: 150px;
+    overflow: auto;
+}
+
+.oblig {
+    color: red;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón de envío */
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#volverAtras{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #005ea6;
+}
+
+
+footer h5 {
+    color: white;
+    width: 100%;
+    min-height: 250px;
+    background: black;
+    font-family: "Red Hat Display", sans-serif;
+    padding-top: 1.5em;
+    padding-bottom: 5em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container {
+    display: flex;
+    height: 150px;
+    position: cover;
+    
+}
+
+
+#div1 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+#p1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    padding: 1.5em;
+    text-align: left;
+}
+
+#div2 {
+    font-size: 25px;
+    text-align: right;
+}
+
+#p2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    padding: 1.5em;
+    text-align: right;
+    margin: 10px;
+}

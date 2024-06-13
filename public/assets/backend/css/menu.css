@@ -1,0 +1,49 @@
+/* Estilos base para el cuerpo */
+body {
+    margin: 0;
+}
+
+/* Estilo del navegador */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de la lista */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de los elementos de la lista */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Estilo de los enlaces */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,53 @@
+<section>
+    <header>
+        <h2 class="titulo">
+            Hazte socio
+        </h2>
+        <div>
+            {{ contenido }}
+        </div>
+    </header>
+
+
+    <link rel="stylesheet" href="/assets/frontend/css/registro.css">
+    <p class="parrafo-1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit officiis repellat voluptatem, quod voluptate natus eligendi laboriosam quae tenetur rerum, pariatur velit impedit! Dolorem in alias, autem assumenda quis cum.
+    </p>
+    <div>
+        <form action="formRegistro" method="post" id="/form-registro" >
+            <br>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="Nombre" name="nombre" placeholder="Ingresa tu nombre" required >
+            </div>
+            <div>
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="Apellido" name="Apellido" placeholder="Ingresa tu apellido" required>
+            </div>
+            <div>
+                <label for="Nacimiento">Año De Nacimiento</label>
+                <input type="date" id="Nacimiento" name="Nacimiento" placeholder="Ingresa tu año de nacimiento" required> 
+            </div>
+            <div>
+                <label for="correoElectronico">Correo Electronico</label>
+                <input type="email" id ="Correo" name="correo" placeholder="Ingresa tu correo" required> 
+            </div>
+            <div>
+                <label for="Password">Contraseña</label>
+                <input type="password" id ="password" name="password" placeholder="crea una clave" required> 
+            </div>
+            <div>
+                <label for="subirDatos"> Enviar Formulario. </label>
+                
+                <button  type="submit" id="subirDatos" name="boton" >Enviar</button>
+    
+                <label for="volverAtras">Volver Atras</label>
+                <a href=http://localhost:3000>
+                    
+                    <input type="button" id="volverAtras" value="Salir. "> 
+    
+                </a>  
+            </div>
+        </form>
+    </div>
+</section>

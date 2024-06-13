@@ -1,0 +1,13 @@
+.parrafo-1{
+    font-size: 30px;
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box figure img{
+    width: 500px;
+}

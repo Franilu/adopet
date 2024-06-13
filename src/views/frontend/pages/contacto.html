@@ -1,0 +1,39 @@
+<section>
+    <link rel="stylesheet" href="/assets/frontend/css/contacto.css">
+    <header>
+        <h2 class="titulo">
+            Contactanos
+        </h2>
+        <div>
+            {{ contenido }}
+        </div>
+    </header>
+    <p class="parrafo-1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit officiis repellat voluptatem, quod voluptate natus eligendi laboriosam quae tenetur rerum, pariatur velit impedit! Dolorem in alias, autem assumenda quis cum.
+    </p>
+    <div>
+        <form id="formContacto" method="post" action="/form-contacto">
+            <div>
+                <label for="">Nombre:</label>
+            </div>
+            <div>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="">Correo:</label>
+            </div>
+            <div>
+                <input type="email" name="correo" id="correo" >
+            </div>
+            <div>
+                <label for="">Mensaje:</label>
+            </div>
+            <div>
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            <div>
+                <input type="submit" id="enviar" name="enviar">
+            </div>
+        </form>
+    </div>
+</section>
