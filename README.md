@@ -1,4 +1,4 @@
-# Smartvirtual
+# Adopet
 
 Proyecto Web en `Node.js` desarrollado para el Instituto Profesional `Santo Tomás de Valdivia`, diseñado para demostrar los contenidos de la asignatura de `Programación Web`. Este proyecto está desarrollado en `JavaScript`, con el lado del cliente y el lado del servidor utilizando `Node.js`.
 
